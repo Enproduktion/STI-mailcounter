@@ -1,0 +1,16 @@
+[general]
+accounts = STI-mailcounter
+
+[Account Test]
+localrepository = Local
+remoterepository = Remote
+
+[Repository Local]
+type = Maildir
+localfolders =
+
+[Repository Remote]
+type = IMAP
+remotehost =
+remoteuser =
+remotepass =
